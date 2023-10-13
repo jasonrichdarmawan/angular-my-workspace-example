@@ -1,3 +1,34 @@
+# Non Priority To Do
+
+`dependencies` instead of `peerDependencies` in `package.json` of a library
+
+in `package.json`
+```
+{
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../../dist/login-lib",
+    "lib": {
+      "entryFile": "src/public-api.ts"
+    },
+    "allowedNonPeerDependencies": [
+      "@ng-select/ng-select"
+    ]
+  }
+```
+
+in `ng-package.json`
+```
+    "allowedNonPeerDependencies": [
+      "@ng-select/ng-select"
+    ]
+```
+
+`styles.scss` of a library instead of the `styles.scss` of the main project.
+
+```
+@import "~@ng-select/ng-select/themes/material.theme.css";
+```
+
 # AngularMyWorkspaceExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
