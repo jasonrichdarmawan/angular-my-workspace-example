@@ -6,7 +6,10 @@
       "auth": [
         "dist/auth/auth",
         "dist/auth"
-      ]
+      ],
+      "@@login": [
+        "dist/login-lib",
+      ],
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
