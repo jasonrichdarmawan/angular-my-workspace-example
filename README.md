@@ -23,8 +23,9 @@ in `ng-package.json`
     ]
 ```
 
-`styles.scss` of a library instead of the `styles.scss` of the main project.
+`styles.scss` of a library instead of the `styles.scss` of the `my-first-app` application.
 
+in `styles.scss` of a library.
 ```
 @import "~@ng-select/ng-select/themes/material.theme.css";
 ```
